@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToBay", "ToBay\ToBay.csproj", "{FCE19A59-3965-45FD-A4B0-B06A5650A318}"
+	ProjectSection(ProjectDependencies) = postProject
+		{434EEE59-46B0-449B-B731-85173626E56A} = {434EEE59-46B0-449B-B731-85173626E56A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_db", "..\project001\Web_db\Web_db.csproj", "{434EEE59-46B0-449B-B731-85173626E56A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE19A59-3965-45FD-A4B0-B06A5650A318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE19A59-3965-45FD-A4B0-B06A5650A318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE19A59-3965-45FD-A4B0-B06A5650A318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE19A59-3965-45FD-A4B0-B06A5650A318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434EEE59-46B0-449B-B731-85173626E56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434EEE59-46B0-449B-B731-85173626E56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434EEE59-46B0-449B-B731-85173626E56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434EEE59-46B0-449B-B731-85173626E56A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDBFAC5F-9804-4831-BED1-E5CDA84D859E}
+	EndGlobalSection
+EndGlobal
